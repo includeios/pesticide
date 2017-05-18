@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>绿农售后调查服务</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <style>
+        main{
+            margin-top: 5%;
+            width:90%;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="./after_sale.html">
+            <div class="form-group">
+                <label for="exampleInputEmail1">名字：</label>
+                <input  class="form-control" id="exampleInputEmail1" placeholder="请输入您的姓名" required>
+            </div>
+            <div class="form-group">
+                <label >购买的商品：</label>
+                    <select class="form-control">
+                        <option>微量元素类</option>
+                        <option>大量元素类</option>
+                        <option>花卉浓缩营养液类</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <label >效果评价：</label>
+                <textarea class="form-control" rows="5" placeholder="请输入您购买的商品使用后的效果评价"></textarea>
+            </div>
+            <div class="form-group">
+                <label >遇到问题：</label>
+                <textarea class="form-control" rows="5" placeholder="请输入您购买或使用商品时遇到的问题，我们会及时给您进行处理"></textarea>
+            </div>
+            <div class="form-group">
+                <label >意见和反馈：</label>
+                <textarea class="form-control" rows="5" placeholder="我们会认真阅读您提供给我们的宝贵建议，不断完善绿农。"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputFile">上传图片</label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">如果需要，可以点击这里上传图片</p>
+            </div>
+            <a href="./after_sale_submit.html" class="btn btn-primary btn-lg  btn-block" role="button">提 交</a>
+        </form>
+    </main>
+</body>
+</html>
